@@ -22,7 +22,3 @@ function App() {
 
 export default App;
 
-{
-  /* <Route path="/" element={<HomePages />} />
-<Route path="/singlepage/:id" element={<SinglePage />} /> */
-}
