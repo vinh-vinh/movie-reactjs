@@ -20,7 +20,7 @@ function Header() {
       >
         <nav className="flexSB">
           <div className="logo">
-            <Link to="/">
+            <Link to="/movie-reactjs">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
                 alt=""
@@ -33,13 +33,13 @@ function Header() {
             onClick={() => setMobile(false)}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/movie-reactjs">Home</Link>
             </li>
             <li>
-              <Link to="/">Up-Trending</Link>
+              <Link to="/movie-reactjs">Up-Trending</Link>
             </li>
             <li>
-              <Link to="/">Popular</Link>
+              <Link to="/movie-reactjs">Popular</Link>
             </li>
           </ul>
 
